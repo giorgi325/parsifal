@@ -1,0 +1,68 @@
+@media screen and (max-width:1000px) {
+    .responsible button {
+        display: inline-block;
+        background: transparent;
+        font-size: 23px;
+        color: white;
+        cursor: pointer;
+        border: none;
+    }
+
+    .navMenu {
+        display: none;
+    }
+
+    #opneMenyBtn {
+        display: inline;
+    }
+
+    #closeMenyBtn {
+        display: none;
+    }
+
+    nav .navMenu {
+        position: fixed;
+        top: 95px;
+        right: -300px;
+        width: 18rem;
+        flex-direction: column;
+        gap: 0;
+        transition: 400ms;
+        background-color: var(--header-color);
+        height: 400px;
+    }
+
+    .parsifal {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 700px) {
+  .Header-left h1 {
+    font-size: 20px;
+  }  
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+  }
+
+  .parsifal {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .mainRegister label {
+        font-size: 12px;
+    }
+
+    .mainRegister input::placeholder {
+        font-size: 12px;
+    }
+
+    .register button {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,71 @@
+main {
+    margin-top: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    width: 80%;
+    padding: 30px;
+    border: 0.3px solid var(--header-color);
+}
+
+.mainRegister {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 50px;
+}
+
+.mainRegister label {
+    margin-bottom: 10px;
+}
+
+.mainRegister input {
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--header-color);
+    padding-left: 20px;
+    color: white;
+}
+
+.mainRegister input::placeholder {
+    color: white;
+}
+
+.main h2 a:hover {
+    text-decoration: none;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+}
+
+.register button {
+    border: none;
+    color: white;
+    background-color: var(--header-color);
+    padding: 20px 30px;
+    font-size: 16px;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+
+.register button:hover {
+    background-color: var(--darkBlue-color);
+}
+
+
+.mainPassword div {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    gap: 0;
+}
+
+.mainPassword div i {
+    margin-top: 18px;
+}

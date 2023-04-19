@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>რეგისტრაცია</title>
+    <link rel="stylesheet" href="./register.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsible.css" />
+  </head>
+  <body>
+    <!-- ===== HEADER ======== -->
+
+    <header>
+      <nav>
+        <div class="Header-left">
+          <h1>პარციფალი</h1>
+        </div>
+        <div class="header-midle">
+          <div class="dropdown">
+            <button class="dropbtn">
+              წიგნები <i class="fa-solid fa-caret-down fa-shake"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="./books/book1.html">წიგნი I</a>
+              <a href="./books/book2.html">წიგნი II</a>
+              <a href="./books/book3.html">წიგნი III</a>
+              <a href="./books/book4.html">წიგნი IV</a>
+              <a href="./books/book5.html">წიგნი V</a>
+              <a href="./books/book6.html">წიგნი VI</a>
+              <a href="./books/book7.html">წიგნი VII</a>
+              <a href="./books/book8.html">წიგნი VIII</a>
+              <a href="./books/book9.html">წიგნი IX</a>
+              <a href="./books/book10.html">წიგნი X</a>
+              <a href="./books/book11.html">წიგნი XI</a>
+              <a href="./books/book12.html">წიგნი XII</a>
+              <a href="./books/book13.html">წიგნი XIII</a>
+              <a href="./books/book14.html">წიგნი XIV</a>
+              <a href="./books/book15.html">წიგნი XV</a>
+              <a href="./books/book16.html">წიგნი XVI</a>
+            </div>
+          </div>
+        </div>
+        <div class="navMenu">
+          <div class="main">
+            <h2><a href="./index.html">მთავარი</a></h2>
+          </div>
+          <div class="mokleshinaarsi">
+            <a href="./mokleshinaarsi.html">მოკლე შინაარსი</a>
+          </div>
+          <div class="header-right">
+            <ul>
+              <li>
+                <a class="register" href="./register.html">რეგისტრაცია </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="responsible">
+          <button id="opneMenyBtn">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <button id="closeMenyBtn">
+            <i class="fa-solid fa-x"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ===== HEADER ======== -->
+    <main>
+      <section>
+        <div class="mainRegister">
+          <label for="Email">შეიყვანეთ თვენი სახელი</label>
+          <input id="name" type="text" placeholder="სახელი" />
+        </div>
+        <div class="mainRegister">
+          <label for="Email">შეიყვანეთ თვენი გვარი</label>
+          <input id="lastName" type="text" placeholder="გვარი" />
+        </div>
+        <div class="mainRegister">
+          <label for="Email">შეიყვანეთ თვენი მეილი</label>
+          <input id="email" type="text" placeholder="სახელი@gmail.com" />
+        </div>
+        <div class="mainRegister mainPassword">
+          <label for="Email">შეიყვანეთ თვენი პაროლი</label>
+          <div>
+            <span class="input-group-text" id="changePasswordVisibility"
+              ><i class="fa-solid fa-eye"></i>
+            </span>
+            <input id="password" type="password" placeholder="პაროლი" />
+          </div>
+        </div>
+        <div class="register">
+          <button class="registerBtn" id="actionbutton">რეგისტრაცია</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- ====== SCRIPTS ===== -->
+    <script
+      src="https://kit.fontawesome.com/4dd95a71c6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script
+      src="https://kit.fontawesome.com/af6bc85f41.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./index.js"></script>
+    <script src="./js/auth.js"></script>
+    <script src="./js/generl.js"></script>
+    <script src="./js/firaBase.js"></script>
+    <script
+      src="https://kit.fontawesome.com/af6bc85f41.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- ====== SCRIPTS ===== -->
+  </body>
+</html>

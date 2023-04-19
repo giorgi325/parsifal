@@ -1,0 +1,46 @@
+.book {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.mokleBook {
+    margin-top: 150px;
+    display: flex !important;
+    justify-content: center !important;
+    margin-bottom: 50px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.author h2 {
+    font-weight: 200;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.paragraph {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.mokleparagraph {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    word-spacing: 8px;
+    letter-spacing: 1px;
+}
